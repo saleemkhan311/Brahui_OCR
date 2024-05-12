@@ -71,7 +71,7 @@ if __name__ == '__main__':
     image_path = r"\0test.png"
     saved_model = "./saved_models/UTRNet-Large/best_norm_ED.pth"
 
-    st.title("Brahui OCR with UTRNet")
+    st.title("Brahui OCR Online App")
 
     uploaded_file = st.file_uploader("Upload an image...", type=["jpg", "png", "jpeg"])
     if uploaded_file is not None:
