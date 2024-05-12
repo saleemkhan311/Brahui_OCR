@@ -68,8 +68,8 @@ def read(opt, device):
 
 if __name__ == '__main__':
 
-    image_path = r"D:\Work\Python\OCR\UTRNet-High-Resolution-Urdu-Text-Recognition\all_data\0test.png"
-    saved_model = r"D:\Work\Python\OCR\Brahui_OCR\saved_models\UTRNet-Large\best_norm_ED.pth"
+    image_path = r"\0test.png"
+    saved_model = r".\saved_models\UTRNet-Large\best_norm_ED.pth"
 
     st.title("Brahui OCR with UTRNet")
 
