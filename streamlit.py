@@ -69,7 +69,7 @@ def read(opt, device):
 if __name__ == '__main__':
 
     image_path = r"\0test.png"
-    saved_model = r".\saved_models\UTRNet-Large\best_norm_ED.pth"
+    saved_model = "./saved_models/UTRNet-Large/best_norm_ED.pth"
 
     st.title("Brahui OCR with UTRNet")
 
@@ -124,5 +124,8 @@ if __name__ == '__main__':
                 cuda_str = f'cuda:{opt.device_id}'
             device = torch.device(cuda_str if torch.cuda.is_available() else 'cpu')
             print("Device : ", device)
+
+            st.write('File path:', './saved_models/UTRNet-Large/best_norm_ED.pth')
+
 
             st.markdown("## Result: "+read(opt, device))
