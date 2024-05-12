@@ -125,7 +125,7 @@ if __name__ == '__main__':
             device = torch.device(cuda_str if torch.cuda.is_available() else 'cpu')
             print("Device : ", device)
 
-            st.write('File path:', './saved_models/UTRNet-Large/best_norm_ED.pth')
+            #st.write('File path:', './saved_models/UTRNet-Large/best_norm_ED.pth')
 
 
             st.markdown("## Result: "+read(opt, device))
