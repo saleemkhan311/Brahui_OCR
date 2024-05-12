@@ -1,0 +1,4 @@
+Logging at @ 2024-05-08_01-50-21
+model input parameters 32 400 20 1 32 256 182 100 HRNet DBiLSTM CTC
+Loaded pretrained model from saved_models/UTRNet-Large/best_norm_ED.pth
+

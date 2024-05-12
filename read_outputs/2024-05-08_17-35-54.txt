@@ -1,0 +1,2 @@
+Logging at @ 2024-05-08_17-35-54
+model input parameters 32 400 20 1 32 256 182 100 HRNet DBiLSTM CTC
